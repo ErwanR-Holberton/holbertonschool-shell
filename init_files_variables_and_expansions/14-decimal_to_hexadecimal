@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "0x%X\n " $DECIMAL | cut -c3-
+printf "0x%X\n" $DECIMAL | cut -c3-
