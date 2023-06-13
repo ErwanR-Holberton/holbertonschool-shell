@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p .. | grep '/$'
+find . -type d -not -path '.' -print | wc -l
